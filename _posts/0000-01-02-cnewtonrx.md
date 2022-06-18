@@ -2,7 +2,7 @@
 layout: presentation
 ---
 
-{% for post in site.posts reversed %}
+{% line 5 changed %}
 	{% include slide.html %}
 	<div class="page-break"></div>
 {% endfor %}
